@@ -1,0 +1,119 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:cursive;
+}
+
+  .imagebg{
+  background-image: url("https://cdn4.vectorstock.com/i/1000x1000/54/18/sun-and-sky-background-for-children-vector-1305418.jpg");
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+}
+
+.navbar ul li{
+text-decoration: none;
+color:black;
+text-transform: uppercase;
+}
+
+.content{
+  width:100%;
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  text-align:center;
+  color:purple;
+}
+
+.Option-list{
+  font-style:italic;
+  color:black;
+  border: 5px solid Tomato;
+  border-style:outset;
+  border-width: 15px
+}
+
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+button{
+  width:100px;
+  padding: 20px 0;
+  text-align:center;
+  margin: 20px 15px;
+  border-radius:20px;
+  font-weight:bold;
+  border:3px solid green;
+  background:transparent;
+  color:white;
+  cursor:pointer;
+  position:relative;
+  overflow:hidden;
+}
+span{
+  background:grey;
+  height:100%;
+  weight:100%;
+  border-radius:20px;
+  position:absolute;
+  left:0;
+  bottom:0;
+  z-index:-1;
+}
+
+.con-image{
+  border:5px solid #black;
+  border-radius:10px;
+  padding:15px;
+  width: 150px;
+}
+
+.navbar ul li:hover{
+  color:red ;
+}
+
+.navbar ul li{
+  list-style: none;
+  display:inline-block;
+  margin:0 20px;
+}
+
+.navbar{
+  width:90%;
+  margin:auto;
+  padding:35px 0px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.footer{
+  padding: 20px;
+  text-align:center;
+  background:grey;
+  margin-top:100px;
+}
